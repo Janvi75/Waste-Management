@@ -1,0 +1,84 @@
+/*your css code start from here*/
+
+.pps{
+  background-color: white;
+  height:580px;
+  width: 1490px;
+  margin: 10px 5px;
+}
+
+.pps::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.imgu{
+  width: 250px;
+  height:250px;
+  border:3px solid MediumSeaGreen;
+
+  margin-left: -352px;
+  margin-top: 20px;
+  margin-bottom:20px;
+
+}
+
+.uinfo{
+  width: 250px;
+  height:250px;
+  border:3px solid MediumSeaGreen;
+  margin-top:300px;
+  margin-left:30px;
+  margin-right: 100px;
+  float: left;
+}
+ul{
+    list-style-type: none;
+}
+li{
+  font-size: 35px normal black;
+  font-weight: bolder;
+  float:none;
+  margin-top: -18px;
+  margin-left: -25px;
+
+
+}
+hr{
+  width:242px;
+  border: 1px solid MediumSeaGreen;
+  border-width: medium;
+  margin-left: -50px;
+}
+
+.tabc{
+  margin-top: -250px;
+
+}
+table,th,td{
+  border: 2px solid lightgray;
+  padding:15px;
+  font-size: 35px;
+}
+table{
+  width:70%;
+  border-radius: 45px;
+  border: 8px solid MediumSeaGreen;
+
+}
+th{
+  width:50%;
+  border-bottom: 5px solid white;
+  background-color: MediumSeaGreen;
+  color: white;
+}
+td{
+    vertical-align: middle;
+}
+tr:hover {background-color: lightgray;}
+
+th:hover {
+  background-color:white ;
+  color: MediumSeaGreen ;
+  border-color: MediumSeaGreen;
+}

@@ -1,0 +1,66 @@
+/*your css code start from here*/
+
+.pps{
+  background-color: white;
+  height:480px;
+  width: 1490px;
+  margin: 10px 5px;
+  padding-top: 30px;
+}
+.pps::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+table,td{
+  border: 2px solid MediumSeaGreen;
+  padding:5px;
+  font-size: 25px;
+}
+table{
+  width:25%;
+  height:85%;
+  border-radius: 25px;
+  border: 6px solid MediumSeaGreen;
+  float:right;
+  margin-top: -450px;
+  margin-right:20px;
+}
+td{
+    vertical-align: middle;
+}
+td:hover {
+  background-color: MediumSeaGreen;
+    border-bottom: 5px solid white;
+}
+th{
+  width:60%;
+  border-bottom: 5px solid white;
+  background-color: MediumSeaGreen;
+  color: white;
+}
+th:hover {
+  background-color: white;
+    border-bottom: 5px solid MediumSeaGreen;
+    color: MediumSeaGreen;
+}
+.faq{
+  width:70%;
+  margin-left: 20px;
+  border:2px solid MediumSeaGreen;
+  margin-bottom: 25px;
+}
+.inpq{
+  margin:5px;
+  width: 95%;
+  height:90%;
+  border: none;
+  font-size: 20px;
+
+}
+.inps{
+  margin:15px 25px;
+  width: 85%;
+  height:80%;
+  border:2px solid MediumSeaGreen;
+}

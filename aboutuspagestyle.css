@@ -1,0 +1,54 @@
+/*your css code start from here*/
+
+.pps{
+  background-color: white;
+  height:480px;
+  width: 1490px;
+  margin: 10px 5px;
+  padding-top: 30px;
+}
+.pps::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+table,td{
+  border: 2px solid MediumSeaGreen;
+  padding:5px;
+  font-size: 25px;
+}
+
+table{
+  width:25%;
+  height:90%;
+  border-radius: 25px;
+  border: 6px solid MediumSeaGreen;
+float: right;
+  margin-top: -375px;
+  margin-right:20px;
+}
+td{
+    vertical-align: middle;
+}
+td:hover {
+  background-color: MediumSeaGreen;
+
+}
+th{
+  width:60%;
+  border-bottom: 5px solid white;
+  background-color: MediumSeaGreen;
+  color: white;
+}
+.faq{
+  width:70%;
+
+  margin-left: 20px;
+  border:2px solid MediumSeaGreen;
+  margin-bottom: 25px;
+}
+hr{
+  border-width: thick;
+  border:solid MediumSeaGreen;
+}

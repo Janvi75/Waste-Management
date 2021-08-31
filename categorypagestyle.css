@@ -1,0 +1,31 @@
+/*css code for main body of category page start from here*/
+.abc{
+  background-color: white;
+  height:580px;
+  width: 1490px;
+  margin: 10px 5px;
+}
+.abc::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.buti1{
+  height:270px;
+  width:300px;
+  margin: 25px 32px;
+
+}
+.buti2{
+  height:12%;
+  width:43%;
+  margin: 2px 45px;
+
+}
+button.buti1,button.buti2{
+  font-size: 30px;
+  font-weight:bolder;
+  border-radius:15px;
+  border-width: thick;
+}
