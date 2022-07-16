@@ -1,0 +1,54 @@
+/*your css code start from here*/
+
+.pps{
+  background-color: white;
+  height:580px;
+  width: 1490px;
+  margin: 10px 5px;
+  padding-top: 30px;
+}
+.pps::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+table,td{
+  border: 2px solid MediumSeaGreen;
+  padding:2px;
+  font-size: 45px;
+}
+table{
+  width:20%;
+  border-radius: 45px;
+  border: 8px solid MediumSeaGreen;
+
+}
+td{
+    vertical-align: middle;
+}
+tr:hover {
+  background-color: MediumSeaGreen;
+
+}
+.tabc{
+ margin-left: 40px;
+}
+
+.buts{
+  height:60px;
+  border: none;
+  margin:4px;
+
+
+}
+.tabmap{
+  margin-top:-550px;
+  height:90%;
+  width:70%;
+  margin-right: 70px;
+}
+.tdh{
+  height: 420px;
+  margin-bottom: 15px;
+}

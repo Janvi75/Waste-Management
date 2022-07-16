@@ -1,0 +1,64 @@
+/*css code for home page */
+*{
+  box-sizing: border-box;
+}
+
+.imgs::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.imgs{
+    background-color: white;
+    width:1490px;
+    height: 580px;
+    align:center;
+    padding: 10px 50px;
+}
+.butp{
+  float: left;
+  margin-left: 60px;
+}
+.but1{
+  color: MediumSeaGreen;
+  font-size:100px;
+  font-weight: bolder;
+  height: 110px;
+  width: 80px;
+  padding: 0px 5px;
+  margin: 90px 100px;
+  border:0.3px solid MediumSeaGreen;
+  align-items: baseline;
+
+}
+/*imag css code*/
+.imgi{
+    border:2px solid MediumSeaGreen;
+    height:200px;
+    width:200px;
+    float: left;
+    margin: 50px 25px;
+}
+
+.himg1,.himg2,.himg3{
+  max-width:100%;
+  height:100%;
+  align:center;
+}
+
+.but1{
+  float:left;
+}
+
+
+/*css code for last button*/
+.butb{
+  margin:5px 10px;
+}
+.buts{
+    height:200px;
+    width:200px;
+    margin: 15px 65px;
+    font-size: 30px;
+}

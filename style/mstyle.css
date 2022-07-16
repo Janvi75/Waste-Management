@@ -1,0 +1,183 @@
+body {
+    background-color: lightgray;
+}
+
+header{
+  padding:5px;
+  background-color:MediumSeaGreen;
+}
+
+#logo1{
+  border-radius: 100px;
+  border-color: MediumSeaGreen;
+  margin-left: 350px;
+  margin-top:20px;
+
+}
+
+/*
+/* /* Clearfix (clear floats)*/
+.heading::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.logo1{
+ float:left;
+ padding-right: 30px;
+}
+
+.logo2{
+float:left;
+}
+
+h1{
+  font-size: 80px;
+  color:white;
+
+}
+
+.but{
+    float:none;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+.but::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+button{
+  width: 235px;
+  height:50px;
+  border:3px solid MediumSeaGreen;
+  border-radius: 20px;
+  color:MediumSeaGreen ;
+  font-size: 23px;
+  text-align: center;
+  font-weight: normal;
+  background-color: white;
+  margin: 5px 3px;
+
+}
+
+button:hover{
+  background-color: MediumSeaGreen;
+  color:white;
+  border-color:white;
+}
+a{
+  text-align: center;
+  padding: 7px;
+}
+
+a:link,a:visited{
+  color:MediumSeaGreen;
+    text-align:center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover,a:active{
+  color:white;
+}
+
+.search{
+  width:235px;
+  height:50px;
+  border: 3px solid MediumSeaGreen;
+  border-radius:20px;
+  font-style: normal;
+  font-size:23px;
+  margin: 5px 3px;
+}
+
+.icon{
+  width:35px;
+  height:35px;
+
+  border: 2px solid MediumSeaGreen;
+  border-radius: 15px;
+  margin-right: -5px;
+  float:left;
+
+}
+
+.pmb{
+
+    background-color:white;
+    border: 5px solid MediumSeaGreen;
+    border-radius:50px;
+    height:350px;
+    width:450px;
+    margin: 30px 570px;
+    padding: 10px -10px;
+
+}
+form{
+  height:350px;
+  width:450px;
+}
+.lab{
+
+   font-weight:bold;
+   color: MediumSeaGreen;
+   font-size: 35px;
+   margin: 15px 12px;
+   float: left;
+}
+.hed{
+  font-weight:bold;
+  color: MediumSeaGreen;
+  font-size: 35px;
+  margin: 5px 5px;
+}
+.hf{
+   margin:35px 50px;
+}
+.in{
+  width:225px;
+  height:50px;
+  border: 1.5px solid MediumSeaGreen;
+  border-radius:15px;
+  font-style: normal;
+  font-size:23px;
+  margin: 12px 15px;
+  float:right;
+}
+
+.da{
+    padding:15px 40px;
+}
+.db{
+  margin:15px 10px;
+  padding-left: 20px;
+  float: left;
+}
+footer{
+    margin-top: 10px;
+    color:white;
+    background-color:MediumSeaGreen;
+}
+.dbut{
+  height: 100px;
+  font-weight: bold;
+  font-size: 30px;
+  width:300px;
+  border:5px solid MediumSeaGreen;
+  border-radius: 40px;
+}
+
+  /* /* Clearfix (clear floats)*/
+footer::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+input[type=text]:focus {
+  background-color: #ffffcc;
+  border: 3px solid #555;
+  border-radius: 20px;
+}
